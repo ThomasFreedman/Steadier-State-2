@@ -1,5 +1,5 @@
 # Steadier-State-2
-An updated version of Mark Minasi's Steadier State 
+An updated version of Mark Minasi's [Steadier State](http://www.steadierstate.com/)
 
 I am the IT guy for a local volunteer library that provides a small number of public use computers. 
 Surprisingly, I didn’t discover Mark Minasi’s Steadier State until this year (2016), although I have 
