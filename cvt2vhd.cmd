@@ -205,16 +205,15 @@ echo or any public facing computer that you want to provide the
 echo same, consistent user experience for every user. 
 echo.
 echo Steadier State is created by Mark Manasi and later modified
-echo by Thom Mayor of Tech Garage to do just that. The changes
-echo made by Thom dramatically reduced the reboot cycle time to
-echo return the system to it's "template" state on every reboot
-echo without the need to boot a supervisor OS like WinPE. WinPE
-echo is still required to do merges to update the template image
-echo but is booted separately than the main Windows OS that runs
-echo from one of 2 differencing VHD volumes. The process for this
-echo is quite involved but the good news is most of that process
-echo is automated with good old DOS batch file scripts, so it's
-echo "plain to see" what's going. 
+echo by Thomas Freedman to do just that. The changes made by Thomas
+echo dramatically reduced the time to return the system to it's 
+echo "template" state on every reboot without the need to boot a 
+echo supervisor OS like WinPE. WinPE is still required to do merges
+echo to update the template image but is booted separately than the 
+echo main Windows OS that runs from one of 2 differencing VHD files.
+echo The process for this is quite involved but the good news is 
+echo most of that process is automated with good old DOS batch file 
+echo scripts, so it's "plain to see" what's going. 
 echo.
 echo This script automates the conversion of a running "model"
 echo Windows 7 system into a template image.vhd file Windows will
