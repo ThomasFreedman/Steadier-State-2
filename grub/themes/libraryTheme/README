@@ -1,0 +1,11 @@
+Derrived from the Preliminary openSUSE GRUB 2 theme used in version 12.2
+------------------------------------------------------------------------
+
+boot_menu_*.png and slider_*.png are taken from the default grub2
+'starfield' theme.
+
+OS icons are taken from 'The Definitive Guide To Theming GRUB 2' by Towheed
+Mohammed.
+
+All other elements were created by Thomas Freedman or were found in the 
+public domain.

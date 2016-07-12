@@ -1,0 +1,44 @@
+# Library Theme
+
+desktop-image: "background.png"
+
+title-text: ""
+
+terminal-box: "terminal_box_*.png"
+terminal-font: "Gnu Unifont Mono Regular 18"
+
++ label {
+        left = 46%
+        width = 25%
+        top = 46%
+        height = 36%
+
+        text = "Operating System Choices"      
+        color = "black"
+}
+
++ boot_menu {
+  left = 43%
+  width = 21%
+  top = 48%
+  height = 15%	
+
+# No border
+# menu_pixmap_style = "boot_menu_*.png"
+
+  item_font = "DejaVu Sans Bold 18"
+  item_color = "#000"
+  item_height = 32
+  item_icon_space = 8
+  item_spacing = 2
+
+  selected_item_font = "DejaVu Sans Bold 18"
+  selected_item_color= "#000"
+  selected_item_pixmap_style = "select_*.png"
+
+  icon_height = 32
+  icon_width = 32
+
+  scrollbar = false
+}
+
