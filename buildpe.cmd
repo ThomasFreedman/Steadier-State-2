@@ -349,7 +349,7 @@ copy  %ssFiles%\*.cmd         %sdrState%                  /y                   >
 copy  %ssFiles%\winpe1.bmp    %peSysRoot%\winpe.bmp       /y                   >>%logdir%\04sdrstatecopy.txt
 copy  %ssFiles%\startnet.cmd  %peSysRoot%\startnet.cmd    /y                   >>%logdir%\04sdrstatecopy.txt
 
-copy "%WAIKBase%\%arch%\bootmgr               %ssOther%   /y                   >>%logdir%\04sdrstatecopy.txt
+copy "%WAIKBase%\%arch%\bootmgr"              %ssOther%   /y                   >>%logdir%\04sdrstatecopy.txt
 copy "%WAIKBase%\PETools\%arch%\imagex.exe"   %peSysRoot% /y                   >>%logdir%\04sdrstatecopy.txt
 copy "%WAIKBase%\PETools\%arch%\BootSect.exe" %peSysRoot% /y                   >>%logdir%\04sdrstatecopy.txt
 
